@@ -1,0 +1,9 @@
+[package]
+name = "nonograms"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bstr = "*"
+regex = "*"
+z3 = { version = "*", features = ["static-link-z3"] }
